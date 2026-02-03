@@ -1,0 +1,178 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "yo",
+        "hello there",
+        "hi there",
+        "hey support",
+        "hey assist"
+      ],
+      "responses": [
+        "Hello! 👋 How can I assist you today?",
+        "Hi there! 😊 What can I help you with?",
+        "Hey! Welcome to customer support.",
+        "Good to see you! How may I help?",
+        "Hello 👋 Need help with something?",
+        "Hi! I'm here to help you.",
+        "Hey there 😊 What brings you here today?",
+        "Hello! Let me know how I can assist.",
+        "Hi 👋 What can I do for you today?",
+        "Hey! How can I make your day easier?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "i need help",
+        "can you help me",
+        "support",
+        "i need assistance",
+        "what can you do",
+        "how can you help",
+        "i have a problem"
+      ],
+      "responses": [
+        "Sure 😊 What do you need help with?",
+        "Of course! Tell me what’s going on.",
+        "I’m here to help 👍 What’s the issue?",
+        "No problem! What can I assist you with?",
+        "Tell me what you need help with.",
+        "I’d be happy to help 😊 What’s up?",
+        "Let me know what you’re facing.",
+        "Sure! How can I support you today?",
+        "Happy to help 👍 What seems to be the issue?",
+        "Go ahead, tell me how I can help."
+      ]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "track my order",
+        "order status",
+        "where is my order",
+        "check my order",
+        "order tracking",
+        "order update",
+        "track order",
+        "order details",
+        "can you check my order"
+      ],
+      "responses": [
+        "I can help with that 📦 Please share your order ID.",
+        "Sure! May I have your order ID?",
+        "Let me check your order status. What’s the order ID?",
+        "No problem 😊 Please provide your order number.",
+        "I’ll look into it for you. Share your order ID.",
+        "Happy to check! Can you tell me your order ID?",
+        "Sure 👍 Please send your order ID.",
+        "I can track that for you. What’s your order ID?",
+        "Let’s check your order 📦 Please provide the ID.",
+        "I just need your order ID to proceed."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "delivery issue",
+        "delivery issues",
+        "order delayed",
+        "late delivery",
+        "my order is late",
+        "delivery problem",
+        "shipment delayed",
+        "delivery delay",
+        "why is my order late"
+      ],
+      "responses": [
+        "Sorry about the delay 😔 Please share your order ID.",
+        "I understand delays are frustrating. What’s your order ID?",
+        "Let me check the delivery status for you. Order ID please.",
+        "Thanks for informing me. Can you share the order ID?",
+        "I’ll help you with that 👍 Please provide your order ID.",
+        "Sorry for the inconvenience. What’s your order number?",
+        "I can check why it’s delayed. Please send the order ID.",
+        "Delivery delays happen sometimes 😔 Share your order ID and I’ll look into it.",
+        "Let’s find out what’s causing the delay. Order ID?",
+        "I’ll check the delivery details for you. Please provide the order ID."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "refund",
+        "i want a refund",
+        "refund my order",
+        "money back",
+        "return and refund",
+        "refund status",
+        "refund request"
+      ],
+      "responses": [
+        "I can help with a refund 👍 Could you tell me the reason?",
+        "Sure 😊 Please let me know why you want a refund.",
+        "No problem. May I know the refund reason?",
+        "I’ll assist you with that. What’s the reason for the refund?",
+        "Refunds are possible 👍 Can you share the reason?",
+        "I can raise a refund request for you. Please tell me the reason.",
+        "Let me help you with the refund. What happened?",
+        "Sure! Why would you like a refund?",
+        "Happy to help 👍 What’s the refund reason?",
+        "Please tell me why you’re requesting a refund."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "cancel order",
+        "i want to cancel my order",
+        "order cancellation",
+        "cancel my order",
+        "stop my order",
+        "cancel purchase"
+      ],
+      "responses": [
+        "I can help cancel your order. Please share the order ID.",
+        "Sure 👍 What’s the order ID you want to cancel?",
+        "No problem. Please provide your order number.",
+        "I’ll help with the cancellation. Order ID please.",
+        "Let me cancel it for you. What’s the order ID?",
+        "Cancellation is possible 😊 Please share the order ID.",
+        "I can do that. Just need the order ID.",
+        "Sure! Which order would you like to cancel?",
+        "Please provide the order ID to proceed.",
+        "Let’s cancel it 👍 What’s your order ID?"
+      ]
+    },
+    {
+      "tag": "human",
+      "patterns": [
+        "talk to human",
+        "human agent",
+        "real person",
+        "customer executive",
+        "connect me to agent",
+        "i want to talk to someone"
+      ],
+      "responses": [
+        "👤 I’ll connect you to a human agent shortly.",
+        "Sure 😊 A support agent will assist you.",
+        "Please wait while I connect you to a human agent.",
+        "I understand. Redirecting you to a human representative.",
+        "No problem 👍 Connecting you to support.",
+        "A real person will assist you shortly.",
+        "Hang tight 👤 I’m transferring you to an agent.",
+        "You’ll be assisted by a human shortly.",
+        "Connecting you to customer support now.",
+        "I’ll get a human agent for you."
+      ]
+    }
+  ]
+}

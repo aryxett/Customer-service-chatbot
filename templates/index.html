@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AssistAI | Customer Support</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+    <header class="top-header">
+        <h2>AssistAI</h2>
+        <span>Online • Customer Support</span>
+
+        <div class="header-actions">
+            <button onclick="clearChat()" class="clear-btn">🗑 Clear Chat</button>
+            <button id="theme-toggle">🌙</button>
+        </div>
+    </header>
+
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <h3>FAQs</h3>
+            <button onclick="quickSend('Hello')">👋 Hello</button>
+            <button onclick="quickSend('Track my order')">📦 Track Order</button>
+            <button onclick="quickSend('Delivery issue')">🚚 Delivery Issue</button>
+            <button onclick="quickSend('Refund')">💳 Refund</button>
+            <button onclick="quickSend('Cancel order')">❌ Cancel Order</button>
+            <button onclick="quickSend('Talk to human')">👤 Human Agent</button>
+        </aside>
+
+        <!-- CHAT AREA -->
+        <main class="chat-page">
+
+            <div id="chat-box">
+                <!-- WELCOME MESSAGE -->
+                <div class="welcome" id="welcome">
+                    <h2>Hey User 👋</h2>
+                    <p>How may I help you today?</p>
+                </div>
+            </div>
+
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Type your message..." />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="/static/js/chat.js"></script>
+</body>
+
+</html>
